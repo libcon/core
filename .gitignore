@@ -1,0 +1,18 @@
+# Ignore all dot-files and dot-directories
+.*
+
+# Don't ignore specific dot-files
+!.gitignore
+!.editorconfig
+
+# Ignore vendor dependencies
+/vendor/
+
+# Ignore reports from building and testing
+/build/
+
+# Ignore dependency lock file
+/composer.lock
+
+# Ignore local configuration files
+/phpunit.xml
